@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7CDB1CB1BCA8A91008AC04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDB1CA1BCA8A91008AC04B /* AppDelegate.swift */; };
+		A7CDB1CD1BCA8A91008AC04B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDB1CC1BCA8A91008AC04B /* ViewController.swift */; };
+		A7CDB1CF1BCA8A91008AC04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CDB1CE1BCA8A91008AC04B /* Assets.xcassets */; };
+		A7CDB1D21BCA8A91008AC04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CDB1D01BCA8A91008AC04B /* Main.storyboard */; };
+		A7CDB1DD1BCA8A91008AC04B /* TempoCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDB1DC1BCA8A91008AC04B /* TempoCalcTests.swift */; };
+		A7CDB1E81BCA8A91008AC04B /* TempoCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDB1E71BCA8A91008AC04B /* TempoCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7CDB1D91BCA8A91008AC04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CDB1BF1BCA8A91008AC04B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CDB1C61BCA8A91008AC04B;
+			remoteInfo = TempoCalc;
+		};
+		A7CDB1E41BCA8A91008AC04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CDB1BF1BCA8A91008AC04B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CDB1C61BCA8A91008AC04B;
+			remoteInfo = TempoCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7CDB1C71BCA8A91008AC04B /* TempoCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CDB1CA1BCA8A91008AC04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7CDB1CC1BCA8A91008AC04B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7CDB1CE1BCA8A91008AC04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7CDB1D11BCA8A91008AC04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7CDB1D31BCA8A91008AC04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CDB1D81BCA8A91008AC04B /* TempoCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CDB1DC1BCA8A91008AC04B /* TempoCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoCalcTests.swift; sourceTree = "<group>"; };
+		A7CDB1DE1BCA8A91008AC04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CDB1E31BCA8A91008AC04B /* TempoCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CDB1E71BCA8A91008AC04B /* TempoCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoCalcUITests.swift; sourceTree = "<group>"; };
+		A7CDB1E91BCA8A91008AC04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7CDB1C41BCA8A91008AC04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDB1D51BCA8A91008AC04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDB1E01BCA8A91008AC04B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7CDB1BE1BCA8A91008AC04B = {
+			isa = PBXGroup;
+			children = (
+				A7CDB1C91BCA8A91008AC04B /* TempoCalc */,
+				A7CDB1DB1BCA8A91008AC04B /* TempoCalcTests */,
+				A7CDB1E61BCA8A91008AC04B /* TempoCalcUITests */,
+				A7CDB1C81BCA8A91008AC04B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CDB1C81BCA8A91008AC04B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDB1C71BCA8A91008AC04B /* TempoCalc.app */,
+				A7CDB1D81BCA8A91008AC04B /* TempoCalcTests.xctest */,
+				A7CDB1E31BCA8A91008AC04B /* TempoCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7CDB1C91BCA8A91008AC04B /* TempoCalc */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDB1CA1BCA8A91008AC04B /* AppDelegate.swift */,
+				A7CDB1CC1BCA8A91008AC04B /* ViewController.swift */,
+				A7CDB1CE1BCA8A91008AC04B /* Assets.xcassets */,
+				A7CDB1D01BCA8A91008AC04B /* Main.storyboard */,
+				A7CDB1D31BCA8A91008AC04B /* Info.plist */,
+			);
+			path = TempoCalc;
+			sourceTree = "<group>";
+		};
+		A7CDB1DB1BCA8A91008AC04B /* TempoCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDB1DC1BCA8A91008AC04B /* TempoCalcTests.swift */,
+				A7CDB1DE1BCA8A91008AC04B /* Info.plist */,
+			);
+			path = TempoCalcTests;
+			sourceTree = "<group>";
+		};
+		A7CDB1E61BCA8A91008AC04B /* TempoCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDB1E71BCA8A91008AC04B /* TempoCalcUITests.swift */,
+				A7CDB1E91BCA8A91008AC04B /* Info.plist */,
+			);
+			path = TempoCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7CDB1C61BCA8A91008AC04B /* TempoCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDB1EC1BCA8A91008AC04B /* Build configuration list for PBXNativeTarget "TempoCalc" */;
+			buildPhases = (
+				A7CDB1C31BCA8A91008AC04B /* Sources */,
+				A7CDB1C41BCA8A91008AC04B /* Frameworks */,
+				A7CDB1C51BCA8A91008AC04B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempoCalc;
+			productName = TempoCalc;
+			productReference = A7CDB1C71BCA8A91008AC04B /* TempoCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7CDB1D71BCA8A91008AC04B /* TempoCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDB1EF1BCA8A91008AC04B /* Build configuration list for PBXNativeTarget "TempoCalcTests" */;
+			buildPhases = (
+				A7CDB1D41BCA8A91008AC04B /* Sources */,
+				A7CDB1D51BCA8A91008AC04B /* Frameworks */,
+				A7CDB1D61BCA8A91008AC04B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CDB1DA1BCA8A91008AC04B /* PBXTargetDependency */,
+			);
+			name = TempoCalcTests;
+			productName = TempoCalcTests;
+			productReference = A7CDB1D81BCA8A91008AC04B /* TempoCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7CDB1E21BCA8A91008AC04B /* TempoCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDB1F21BCA8A91008AC04B /* Build configuration list for PBXNativeTarget "TempoCalcUITests" */;
+			buildPhases = (
+				A7CDB1DF1BCA8A91008AC04B /* Sources */,
+				A7CDB1E01BCA8A91008AC04B /* Frameworks */,
+				A7CDB1E11BCA8A91008AC04B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CDB1E51BCA8A91008AC04B /* PBXTargetDependency */,
+			);
+			name = TempoCalcUITests;
+			productName = TempoCalcUITests;
+			productReference = A7CDB1E31BCA8A91008AC04B /* TempoCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CDB1BF1BCA8A91008AC04B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Grace Evangelical Church";
+				TargetAttributes = {
+					A7CDB1C61BCA8A91008AC04B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A7CDB1D71BCA8A91008AC04B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A7CDB1C61BCA8A91008AC04B;
+					};
+					A7CDB1E21BCA8A91008AC04B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A7CDB1C61BCA8A91008AC04B;
+					};
+				};
+			};
+			buildConfigurationList = A7CDB1C21BCA8A91008AC04B /* Build configuration list for PBXProject "TempoCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7CDB1BE1BCA8A91008AC04B;
+			productRefGroup = A7CDB1C81BCA8A91008AC04B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7CDB1C61BCA8A91008AC04B /* TempoCalc */,
+				A7CDB1D71BCA8A91008AC04B /* TempoCalcTests */,
+				A7CDB1E21BCA8A91008AC04B /* TempoCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7CDB1C51BCA8A91008AC04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CDB1CF1BCA8A91008AC04B /* Assets.xcassets in Resources */,
+				A7CDB1D21BCA8A91008AC04B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDB1D61BCA8A91008AC04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDB1E11BCA8A91008AC04B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7CDB1C31BCA8A91008AC04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CDB1CD1BCA8A91008AC04B /* ViewController.swift in Sources */,
+				A7CDB1CB1BCA8A91008AC04B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDB1D41BCA8A91008AC04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CDB1DD1BCA8A91008AC04B /* TempoCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CDB1DF1BCA8A91008AC04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CDB1E81BCA8A91008AC04B /* TempoCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7CDB1DA1BCA8A91008AC04B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CDB1C61BCA8A91008AC04B /* TempoCalc */;
+			targetProxy = A7CDB1D91BCA8A91008AC04B /* PBXContainerItemProxy */;
+		};
+		A7CDB1E51BCA8A91008AC04B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CDB1C61BCA8A91008AC04B /* TempoCalc */;
+			targetProxy = A7CDB1E41BCA8A91008AC04B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7CDB1D01BCA8A91008AC04B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7CDB1D11BCA8A91008AC04B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7CDB1EA1BCA8A91008AC04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7CDB1EB1BCA8A91008AC04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7CDB1ED1BCA8A91008AC04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TempoCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.graceontheweb.TempoCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7CDB1EE1BCA8A91008AC04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TempoCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.graceontheweb.TempoCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7CDB1F01BCA8A91008AC04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TempoCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.graceontheweb.TempoCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoCalc.app/Contents/MacOS/TempoCalc";
+			};
+			name = Debug;
+		};
+		A7CDB1F11BCA8A91008AC04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TempoCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.graceontheweb.TempoCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoCalc.app/Contents/MacOS/TempoCalc";
+			};
+			name = Release;
+		};
+		A7CDB1F31BCA8A91008AC04B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TempoCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.graceontheweb.TempoCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TempoCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7CDB1F41BCA8A91008AC04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TempoCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.graceontheweb.TempoCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TempoCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7CDB1C21BCA8A91008AC04B /* Build configuration list for PBXProject "TempoCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDB1EA1BCA8A91008AC04B /* Debug */,
+				A7CDB1EB1BCA8A91008AC04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CDB1EC1BCA8A91008AC04B /* Build configuration list for PBXNativeTarget "TempoCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDB1ED1BCA8A91008AC04B /* Debug */,
+				A7CDB1EE1BCA8A91008AC04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7CDB1EF1BCA8A91008AC04B /* Build configuration list for PBXNativeTarget "TempoCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDB1F01BCA8A91008AC04B /* Debug */,
+				A7CDB1F11BCA8A91008AC04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7CDB1F21BCA8A91008AC04B /* Build configuration list for PBXNativeTarget "TempoCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CDB1F31BCA8A91008AC04B /* Debug */,
+				A7CDB1F41BCA8A91008AC04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CDB1BF1BCA8A91008AC04B /* Project object */;
+}
