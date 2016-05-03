@@ -386,7 +386,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TempoCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.graceontheweb.TempoCalc;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.squareone.TempoCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -398,7 +399,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TempoCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.graceontheweb.TempoCalc;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.squareone.TempoCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -474,6 +476,7 @@
 				A7CDB1EE1BCA8A91008AC04B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7CDB1EF1BCA8A91008AC04B /* Build configuration list for PBXNativeTarget "TempoCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +485,7 @@
 				A7CDB1F11BCA8A91008AC04B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7CDB1F21BCA8A91008AC04B /* Build configuration list for PBXNativeTarget "TempoCalcUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +494,7 @@
 				A7CDB1F41BCA8A91008AC04B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

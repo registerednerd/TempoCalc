@@ -3,7 +3,7 @@
 //  TempoCalcUITests
 //
 //  Created by Josh Smith on 10/11/15.
-//  Copyright © 2015 Grace Evangelical Church. All rights reserved.
+//  Copyright © 2015 Square One Nation, LLC. All rights reserved.
 //
 
 import XCTest
